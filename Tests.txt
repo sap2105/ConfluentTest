@@ -1,0 +1,55 @@
+Tests
+
+1) Unsubscribe a User to a Feed
+HTTP Endpoint: http://localhost:8080/feedapi/webapi/user/5/feeds/4/unsubscribe
+GET Request
+
+
+2) Subscribe to a Feed
+HTTP Endpoint: http://localhost:8080/feedapi/webapi/user/5/feeds/4/unsubscribe/cancel
+GET Request
+
+
+3) Add Article to Feed
+HTTP Endpoint: http://localhost:8080/feedapi/webapi/user/2/feeds/6/article
+POST Request
+In Params modify the body to send (application/JSON).
+In the body send: New York is home to the iconic Central Park.
+
+
+4) Get all Feeds the Subscriber is following
+HTTP Endpoint: http://localhost:8080/feedapi/webapi/user/2/feeds
+GET Request
+
+
+5) Get Articles from a set of Feeds the user is following
+HTTP Endpoint: http://localhost:8080/feedapi/webapi/user/5/feeds/5/article/1/3
+GET Request
+
+6) View all Users
+HTTP Endpoint: http://localhost:8080/feedapi/webapi/user
+GET Request
+
+7) View a User
+HTTP Endpoint: http://localhost:8080/feedapi/webapi/user/2
+GET Request
+
+8) Add a User
+HTTP Endpoint: http://localhost:8080/feedapi/webapi/user
+POST Request
+In Params modify the body to send (application/JSON).
+In the body send: Harry
+
+9) View all Feeds
+HTTP Endpoint: http://localhost:8080/feedapi/webapi/feeds
+GET Request
+
+10) View a particular Feed
+HTTP Endpoint: http://localhost:8080/feedapi/webapi/feeds/3
+GET Request
+
+11) Add a topic to Feed
+HTTP Endpoint: http://localhost:8080/feedapi/webapi/feeds
+POST Request
+In Params modify the body to send (application/JSON).
+In the body send: United Nations
