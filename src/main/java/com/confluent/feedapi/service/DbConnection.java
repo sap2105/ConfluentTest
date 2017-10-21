@@ -10,7 +10,7 @@ public class DbConnection {
 		try {
 		Class.forName("com.mysql.jdbc.Driver");  
 		con=DriverManager.getConnection(  
-		"jdbc:mysql://localhost:3306/confluenttest","root","root123");
+		"jdbc:mysql://localhost:3306/<DATABASE_NAME>","<USERNAME>","<PASSWORD>");
 		}catch(Exception e) {
 			System.out.println(e);
 		}
