@@ -19,3 +19,4 @@
 8. A few Tests are included in the Tests.txt file.</br>
 
 <h6>Please refer to the Explanation.pdf file to understand the assumptions and get screenshots of the tests performed.</h6>
+<h6>You may get an error when you import the project into Eclipse which will say "JSP Problem". However, this will not stop you from running this project successfully.</h6>
